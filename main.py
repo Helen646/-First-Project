@@ -74,4 +74,5 @@ while True:
             print(receipts[int(number_receipt)])
         else:
             print("please you need to choose 1 or 2")
-
+    else:
+        print("please you need to choose 1 or 2")
