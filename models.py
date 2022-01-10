@@ -61,7 +61,8 @@ class Phone:
 
 
 class TV:
-    def __init__(self, mark: str, os: str, description: str):
+    def __init__(self, mark: str, os: str, description: str, diagonal):
         self.mark = mark
         self.os = os
         self.description = description
+        self.diagonal = diagonal
