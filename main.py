@@ -30,7 +30,9 @@ def create_tv():
     os = input()
     print("Please input description of the brake:\n")
     description = input()
-    return models.TV(mark, os, description)
+    print("Please input description of the diagonal:\n")
+    diagonal=input()
+    return models.TV(mark, os, description,diagonal)
 
 
 receipts = dict()
